@@ -10,20 +10,6 @@
   "daemon_name": "althea",
   "node_home": "$HOME/.althea",
   "slip44": 118,
-  "apis": {
-    "rest": [
-      {
-        "address": "https://nodes.chandrastation.com/api/althea/",
-        "provider": "Chandra Station"
-      }
-    ],
-    "rpc": [
-      {
-        "address": "https://nodes.chandrastation.com/rpc/althea/",
-        "provider": "Chandra Station"
-      }
-    ]
-  },
   "fees": {
     "fee_tokens": [
       {
@@ -69,5 +55,19 @@
     "genesis": {
       "genesis_url": "https://github.com/AltheaFoundation/althea-L1-docs/blob/main/althea-l1-mainnet-genesis.json"
     }
+  },
+  "apis": {
+    "rest": [
+      {
+        "address": "https://nodes.chandrastation.com/api/althea/",
+        "provider": "Chandra Station"
+      }
+    ],
+    "rpc": [
+      {
+        "address": "https://nodes.chandrastation.com/rpc/althea/",
+        "provider": "Chandra Station"
+      }
+    ]
   }
 }
